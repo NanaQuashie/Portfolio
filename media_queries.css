@@ -249,6 +249,17 @@
         margin-top: 250px;
     }
 
+         /* #projects {
+             border: 1px solid red;
+    
+         } */
+
+         #publications{
+            margin-bottom: 10px;
+         }
+
+
+
     .section_text_p3{
         /* border: 1px solid red; */
         margin-top: 50px;
@@ -259,7 +270,18 @@
     #about{
         margin-top: none;
     }
-}
+
+    /* @media (max-width: 320px) {
+       
+
+        #publications{
+            margin-bottom: 20px;
+            border: 1px solid blue;
+        }
+        }*/
+} 
+
+
 
 
 
