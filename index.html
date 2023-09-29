@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandela Quashie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_queries.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">MBQ</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">MBQ</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#publications" onclick="toggleMenu()">Publications</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+        </div>
+    </nav>
+    
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="images/photo_2022-07-27_10-57-42.jpg">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Mandela Bright Quashie</h1>
+            <p class="section_text_p2">Assistant Professor</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('images/Resume - Elston Nana B. Quashie.pdf')">
+                    Download CV
+                </button>
+
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <i class='bx bxl-linkedin-square' onclick="location.href='https://www.linkedin.com/in/nana-quashie-43035723a/'"></i>
+                <i class='bx bxl-github' onclick="location.href='https://github.com/NanaQuashie'"></i>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="about">
+      
+            <p class="section_text_p1">Get to know more</p>
+            <h1 class="title">About me</h1>
+        <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="images/profile_pic.jpg" alt="Profile Picture" width="300px"
+                     class="about_pic">
+                </div>
+                     <div class="about-details-container">
+                        <div class="about-containers">
+                            <div class="details-container">
+                                <i class='bx bx-award'></i>
+                                <h3 >Experience</h3>
+                                <p>3+ years <br> Mathematical Explorer</p>
+                            </div>
+
+                            <div class="details-container">
+                                <i class='bx bx-book-reader'></i>
+                                <h3>Education</h3>
+                                <p>BSc. Bachelors Degree <br> MSc Masters Degree</p>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Francis Su writes about the dignity of human beings and the wonder of mathematical teaching. He is the
+                                Benediktsson-Karwa Professor of Mathematics at Harvey Mudd College and a former president of the Mathematical
+                                Association of America.
+                            </p>
+                        </div>
+                     </div>
+                
+            </div>
+
+            <i class='bx bx-chevrons-down' onclick="location.href='#publications'"></i>
+
+    </section>
+
+    <section id="publications">
+        <p class="section_text_p1">Explore my</p>
+        <h1 class="title">Publications</h1>
+        <div class="publications-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="publications-sub-title">Selected Pieces</h2>
+                    <div class="article-container">
+                <article>
+                    <!-- <i class='bx bxs-check-circle'></i> -->
+                    <div>
+                        <h3>THE LESSON OF GRACE IN TEACHING</h3>
+                        <p>My Haimo Award acceptance speech. It may be my most popular piece of writing.</p>
+                        <button class="btn btn-color-3 project-btn">Read Here</button>
+                    </div>
+                </article>
+
+                <article>
+                    <!-- <i class='bx bxs-check-circle'></i> -->
+                    <div>
+                        <h3>SOLVE THIS MATH PROBLEM: THE GENDER GAP</h3>
+                        <p>The op-ed I wrote for the Los Angeles Times after Maryam Mirzakhani won the Fields Medal.</p>
+                        <button class="btn btn-color-3 project-btn">Read Here</button>
+                    </div>
+                </article>
+
+                <article>
+                    <!-- <i class='bx bxs-check-circle'></i> -->
+                    <div>
+                        <h3>MATHEMATICS FOR HUMAN FLOURISHING</h3>
+                        <p>The speech was directed to mathematicians, and I gave it in my capacity as president of the Mathematical Association of
+                        America.</p>
+                        <button class="btn btn-color-3 project-btn">Read Here</button>
+                    </div>
+                </article>
+
+            </div>
+                </div>
+
+            
+            </div>
+        </div>
+
+        <i class='bx bx-chevrons-down' onclick="location.href='#projects'"></i>
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p3">Browse my recent</p>
+        <h1 class="title-2">Projects</h1>
+        <div class="publications-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+            <div class="article-container">
+                <img src="images/Project1.png" height="500" class="project-img">
+                </div>
+            <h2 class="publications-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.pnas.org/doi/10.1073/pnas.2209819119'">
+                GitHub
+                </button>
+
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.pnas.org/doi/10.1073/pnas.2209819119'">
+                    Live Demo
+                </button>
+                
+            </div>
+                
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/Project2.png" height="500" class="project-img">
+                </div>
+                <h2 class="publications-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://www.pnas.org/doi/10.1073/pnas.2209819119'">
+                        GitHub
+                    </button>
+            
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://www.pnas.org/doi/10.1073/pnas.2209819119'">
+                        Live Demo
+                    </button>
+            
+                </div>
+            
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/Project3.png" height="500" class="project-img">
+                </div>
+                <h2 class="publications-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://www.pnas.org/doi/10.1073/pnas.2209819119'">
+                        GitHub
+                    </button>
+            
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://www.pnas.org/doi/10.1073/pnas.2209819119'">
+                        Live Demo
+                    </button>
+            
+                </div>
+            
+            </div> 
+        </div>
+        </div>
+
+        <i class='bx bx-chevrons-down' onclick="location.href='#contact'"></i>
+
+    </section>
+
+    <section id="contact">
+        <p class="section_text_p3">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <i class='bx bx-envelope contact-icon'></i>
+                <p>mbquashie@gmail.com</p>
+            </div>
+
+            <div class="contact-info-container">
+                <i class='bx bxl-linkedin-square contact-icon' onclick="location.href='https://www.linkedin.com/in/nana-quashie-43035723a/'"></i>
+                <p>LinkedIn</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="copyright">Copyright &#169; 2023 Mandela Bright Quashie. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
